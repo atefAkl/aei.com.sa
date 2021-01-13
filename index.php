@@ -21,9 +21,11 @@
 <nav id="navbar">
     <div class="container">
         <div class="brand">
-            <div id="brandIcon"></div><h2>Aeicoksa</h2>
+            <div id="brandIcon">
+                <img src="assets/icons/icon.png" alt="">
+            </div><h2>Aeicoksa</h2>
         </div>
-        <div class="menu">
+        <div id="menu">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About Us</a></li>

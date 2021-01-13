@@ -7,19 +7,16 @@
     position: sticky;
     top: 0;
     z-index: -1;
-    height: 500px;
-    background-color: #fff;
+    height: 400px;
     background-image: url("assets/bg/header-bg.jpg");
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-clip: padding-box;
-
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 nav {
     background-color: #fff;
-    position: static;
-    height: 70px
+    height: 60px;
+    transition: all 1s ease;
 }
 
 .sticky {
@@ -27,9 +24,11 @@ nav {
     top: 0;
     width: 100%;
     box-shadow: 0 0 5px 2px #333;
+    height: 60px;
 }
+
 .sticky + .content {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .container {
@@ -39,51 +38,61 @@ nav {
 
 .brand{
     width: 30%;
+    display: inline-block;
     font: bold 32px/2em "Arial Black";
-    display: flex;
-    height: 70px;
-
-
+    height: 60px;
 }
 
 #brandIcon {
-    flex: 2;
-    width: 90px;
-    overflow: hidden;
-    background-image: url('assets/icons/icon.png');
     background-size: cover;
-    padding: 10px;
+    display: inline-block;
 }
 
 #brandIcon img {
-
+    width: 60px;
+    display: inline-block;
+    transition: all 1s ease;
 }
 
 .brand h2 {
-    flex: 5;
-    height: 50px;
-}
-
-.menu {
+    font-size: .67em;
     display: inline-block;
-    width: 69.7%;
-border: 1px solid
+    transition: all .3s ease;
+    color: #fff;
+    text-shadow: 0 0 1px #777, 0 0 2px #167695;
 }
 
-.menu ul {
+.sticky .brand h2 {
+    font-size: .3em;
+    display: block;
+    top: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #167695;
+}
+
+#menu {
+    display: inline-block;
+    width: 60%;
+}
+
+#menu ul {
     list-style: none;
+    display: flex;
+    align-content: end;
 }
 
-.menu ul li {
-    display: inline-block;
+#menu ul li {
+    padding: 3px 5px;
 }
 
-.menu ul li a {
+#menu ul li a {
     color: inherit;
+    font-family: "Arial";
+    font-size: 12px;
     text-decoration: none;
 }
 
 .content {
-    margin-top: 0px;
     background-color: #fff;
 }
