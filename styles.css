@@ -37,8 +37,8 @@ nav {
     transition: all .3s ease;
 }
 
-.sticky + .content {
-    padding-top: 120px;
+.sticky + .content .container {
+    padding-top: 170px;
 }
 
 .container {
@@ -91,18 +91,19 @@ nav {
 
 .social {
     position: fixed;
-    left: 10px;
-    top: 190px;
-    width: 70px;
-    height: 200px;
+    display: flex;
+    left: calc(50% - 100px);
+    top: -70px;
+    width: 200px;
+    height: 40px;
     transition: all .6s ease;
     cursor: pointer;
 }
 
 .social i {
     display: block;
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 50px;
     text-align: center;
     line-height:50px;
     color: #167695;
@@ -114,7 +115,7 @@ nav {
 }
 
 .social.popout {
-    left: -100px
+    top: 10px
 }
 
 #menu {
@@ -129,20 +130,40 @@ nav {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+
 }
 
 #menu ul li {
-    padding: 3px 5px;
-    box-shadow: 0 0 1px 1px #333;
+    display: inline-block;
 }
 
 #menu ul li a {
+    padding: 3px 15px;
+    margin: 2px;
     color: inherit;
+    display: block;
     font: bold 16px/1.5em "Arial Black";
     text-decoration: none;
+}
+
+#menu ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 8px;
+    background-color: #167695;
+    transition: all .6s ease;
+}
+#menu ul li a:hover::after {
+    width: calc(100% + 32px);
+    margin-left: -16px;
 }
 
 .content {
     padding: 16px 0;
     background-color: #fff;
+}
+
+section {
+    height: 700px;
 }
