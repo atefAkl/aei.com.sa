@@ -15,8 +15,14 @@
 
 nav {
     background-color: #fff;
-    height: 60px;
-    transition: all 1s ease;
+    height: 80px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: stretch;
+    transition: all .3s ease;
 }
 
 .sticky {
@@ -24,7 +30,7 @@ nav {
     top: 0;
     width: 100%;
     box-shadow: 0 0 5px 2px #333;
-    height: 60px;
+    height: 120px;
 }
 
 .content {
@@ -38,40 +44,47 @@ nav {
 .container {
     width: 90%;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 .brand{
-    width: 30%;
-    display: inline-block;
+    flex: 3;
+    position: relative;
     font: bold 32px/2em "Arial Black";
     height: 60px;
 }
 
 #brandIcon {
-    background-size: cover;
     display: inline-block;
+    background-size: cover;
 }
 
 #brandIcon img {
-    width: 60px;
+    width: 80px;
     display: inline-block;
     transition: all 1s ease;
+    margin: 10px auto;
+}
+.sticky #brandIcon img {
+    width: 100px;
 }
 
+
 .brand h2 {
-    font-size: .67em;
+    position: absolute;
+    font-size: 1.2em;
+    top: 0px;
+    left: 90px;
     display: inline-block;
-    transition: all .3s ease;
+    transition: all .6s ease;
     color: #fff;
     text-shadow: 0 0 1px #777, 0 0 2px #167695;
 }
 
 .sticky .brand h2 {
-    font-size: .4em;
+    font-size: .6em;
+    left:0;
     display: block;
-    top: 20px;
-    position: absolute;
+    top: 60px;
     bottom: 0;
     color: #167695;
 }
@@ -82,8 +95,22 @@ nav {
     top: 190px;
     width: 70px;
     height: 200px;
-    background-color: #fff;
     transition: all .6s ease;
+    cursor: pointer;
+}
+
+.social i {
+    display: block;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height:50px;
+    color: #167695;
+    text-shadow: 1px 1px 5px #777;
+}
+
+.social i:hover {
+    color: #fff;
 }
 
 .social.popout {
@@ -91,19 +118,22 @@ nav {
 }
 
 #menu {
-    display: inline-block;
-    width: 69%;
+    flex: 7;
+    transition: all .6s ease;
+}
+.sticky #menu {
+	margin-top: 20px;
 }
 
 #menu ul {
     list-style: none;
     display: flex;
-    border: 1px solid;
     justify-content: flex-end;
 }
 
 #menu ul li {
     padding: 3px 5px;
+    box-shadow: 0 0 1px 1px #333;
 }
 
 #menu ul li a {
@@ -113,5 +143,6 @@ nav {
 }
 
 .content {
+    padding: 16px 0;
     background-color: #fff;
 }
