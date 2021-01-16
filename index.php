@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AEICO-KSA</title>
     <link rel="icon" href="assets/icons/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
@@ -15,7 +16,35 @@
 
 <!--Start Header Section-->
 <div class="header">
-
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/bg/shal2.gif" class="d-block w-100" alt="...">
+                <div class="slideContent">
+                	<div class="slideText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea eaque, expedita fugit in, maxime minima minus provident quisquam, repellendus saepe sed tenetur! Dolorem magni nobis quae ratione repellat! Dolorem molestias nobis quo?
+                	<button class="cIBtn"><a href="#">See More . . . </a></button>
+                	</div>
+                	
+                </div>
+                
+                <div class="slideTitle">Chemistry Treatment</div>
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="assets/bg/header-bg-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="assets/bg/header-bg-0.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
 </div>
 <!--End Header Section-->
 <!--Navigation Section-->
@@ -77,6 +106,10 @@
             social.classList.remove('popout')
         }
     }
+
 </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>
