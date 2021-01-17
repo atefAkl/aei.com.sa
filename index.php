@@ -16,34 +16,66 @@
 
 <!--Start Header Section-->
 <div class="header">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/bg/shal2.gif" class="d-block w-100" alt="...">
-                <div class="slideContent">
-                	<div class="slideText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea eaque, expedita fugit in, maxime minima minus provident quisquam, repellendus saepe sed tenetur! Dolorem magni nobis quae ratione repellat! Dolorem molestias nobis quo?
-                	<button class="cIBtn"><a href="#">See More . . . </a></button>
-                	</div>
-                	
+    <div class="aqlSlider">
+        <div class="aqlSliderContainer">
+            <div class="aqlSliderImage">
+
+                <img src="assets/bg/header-bg-0.jpg" alt="">
+                <img src="assets/bg/header-bg-1.jpg" alt="">
+                <img src="assets/bg/header-bg-2.jpg" alt="">
+                <img src="assets/bg/header-bg-3.jpg" alt="">
+                <img src="assets/bg/header-bg.jpg" alt="">
+                <img src="assets/bg/shal2.gif" alt="">
+            </div>
+            <div class="aqlSliderDescription">
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
                 </div>
-                
-                <div class="slideTitle">Chemistry Treatment</div>
+
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
+                </div>
+
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
+                </div>
+
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
+                </div>
+
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
+                </div>
+
+                <div class="descItem">
+                    <h2>My Slide Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
+                    <div class="btn btn-primary">See More ...</div>
+                </div>
+
             </div>
-            <div class="carousel-item" data-bs-interval="500">
-                <img src="assets/bg/header-bg-1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="500">
-                <img src="assets/bg/header-bg-0.jpg" class="d-block w-100" alt="...">
+            <div class="aqlSliderControls">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
     </div>
 </div>
 <!--End Header Section-->
@@ -82,6 +114,7 @@
     <div class="container">
         <section id="aboutUs">
             <h2>AEICO COMPANY</h2>
+            <h2 id="Riyas"></h2>
 
         </section>
         <section id="aboutUs">
@@ -91,11 +124,32 @@
 </div>
 <!--End Content Section-->
 
-<script>
+<script type="text/javascript">
+    var sliderItems = [];
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            sliderItems = JSON.parse(this.responseText);
+            let sliderItemsArr = [], slides = sliderItems.length, i=0;
+            setInterval(function() {
+                let currentItem = sliderItems[0];
+                let x =  sliderItemsArr.push(currentItem);
+                sliderItemsArr.shift();
+                console.log(sliderItemsArr[0]);
+            }, 1000)
+
+        }
+    };
+    xmlhttp.open("GET", "http://www.aei.co/slideImages.php", true);
+    xmlhttp.send();
+
     window.onscroll = function() {myFunction()};
 
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
+    let navbar = document.getElementById("navbar");
+    let sticky = navbar.offsetTop;
+    let social = document.getElementById('social');
+    let Riyas = document.getElementById('Riyas');
 
     function myFunction() {
         if (window.pageYOffset >= sticky) {
@@ -106,6 +160,10 @@
             social.classList.remove('popout')
         }
     }
+
+    let sliderItemsArr = [], slides = sliderItems.length, i=0;
+    //
+
 
 </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
