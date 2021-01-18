@@ -36,7 +36,7 @@ nav {
     transition: all .3s ease;
 }
 
-.sticky + .content .container {
+.sticky + .content {
     padding-top: 170px;
 }
 
@@ -168,48 +168,36 @@ section {
 }
 
 /*Slider Style*/
-
-.aqlSlider, .aqlSliderContainer  {
-    width: 100%;
-    height: 100%;
-}
-.aqlSliderContainer {
+.carouselExampleDark {
     position: relative;
-    display: flex;
-
-}
-
-.aqlSliderImage, .aqlSliderDescription {
-    flex: 1;
-    height: 100%;
-    display: inline-block;
-    left: 0;
-    overflow: hidden;
-}
-.aqlSliderImage img {
     width: 100%;
     height: 100%;
 }
-.aqlSliderDescription {
-    right: 0;
-    overflow: hidden;
-}
-.aqlSliderControls {
+.carousel-indicators {
     position: absolute;
-    top: 90%;
+    bottom: 10vh;
+}
+
+.carousel-item img {
+    height: 70vh;
+}
+.carousel-caption {
+    border: 2px solid;
+    display: block;
+    padding: 100px 20px;
+    width: 80%;
+    height: 80%;
+    margin: auto !important;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.aqlSliderControls ul {
-    display: inline-block;
-    margin: 0 auto;
-    border: 1px solid;
+
+.carousel-caption h5 {
+    position: absolute;
+    top: 20%;
+    font-size: 3em;
 }
-.aqlSliderControls ul li {
-    display: inline-block;
-    margin: auto 10px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #ccc;
+.carousel-caption p {
+
 }

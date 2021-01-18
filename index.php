@@ -16,66 +16,67 @@
 
 <!--Start Header Section-->
 <div class="header">
-    <div class="aqlSlider">
-        <div class="aqlSliderContainer">
-            <div class="aqlSliderImage">
-
-                <img src="assets/bg/header-bg-0.jpg" alt="">
-                <img src="assets/bg/header-bg-1.jpg" alt="">
-                <img src="assets/bg/header-bg-2.jpg" alt="">
-                <img src="assets/bg/header-bg-3.jpg" alt="">
-                <img src="assets/bg/header-bg.jpg" alt="">
-                <img src="assets/bg/shal2.gif" alt="">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/bg/header-bg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pipes & Fittings</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
             </div>
-            <div class="aqlSliderDescription">
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/bg/header-bg-0.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pumps & Motors</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
-                </div>
-
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
-                </div>
-
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
-                </div>
-
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
-                </div>
-
-                <div class="descItem">
-                    <h2>My Slide Title</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio, dolore exercitationem fuga, id illo impedit ipsum maxime nihil possimus provident quam recusandae repudiandae sit suscipit, ullam. Mollitia, odit.</p>
-                    <div class="btn btn-primary">See More ...</div>
-                </div>
-
             </div>
-            <div class="aqlSliderControls">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div class="carousel-item">
+                <img src="assets/bg/header-bg-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Valves & Flow Control</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/bg/header-bg-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Instruments & Sensors</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/bg/header-bg-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Testing & Commissioning</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/bg/shal2.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welding & Installation</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
     </div>
 </div>
 <!--End Header Section-->
@@ -125,45 +126,56 @@
 <!--End Content Section-->
 
 <script type="text/javascript">
-    var sliderItems = [];
+    window.onload = function ()
+    {
+        var sliderItems = [];
+        var imageSection = document.getElementById('imageSection');
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                sliderItems = Object.values(JSON.parse(this.responseText));
+                let sliderImgs = document.querySelectorAll('.aqlSliderImage .img'), i = 0;
+                for (; i < sliderImgs.length; i++) {
+                    sliderImgs[i].style.background = 'url("' + sliderItems[0] + '")'
+                    sliderImgs[i].classList.add("loaded");
 
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            sliderItems = JSON.parse(this.responseText);
-            let sliderItemsArr = [], slides = sliderItems.length, i=0;
-            setInterval(function() {
-                let currentItem = sliderItems[0];
-                let x =  sliderItemsArr.push(currentItem);
-                sliderItemsArr.shift();
-                console.log(sliderItemsArr[0]);
-            }, 1000)
+                }
+                //imageSection.style.animation = 'zoomIn 3s linear'
+                //imageSection.innerText = sliderItems;
+                setInterval(function () {
 
+                    //imageSection.setAttribute('src', sliderItems[0])
+                    //imageSection.style.animation = 'zoomIn 3s linear'
+                    sliderItems.push(sliderItems.shift());
+                }, 10000)
+
+            }
+        };
+        xmlhttp.open("GET", "http://www.aeico.sa/slideImages.php", true);
+        xmlhttp.send();
+
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        let navbar = document.getElementById("navbar");
+        let sticky = navbar.offsetTop;
+        let social = document.getElementById('social');
+        let Riyas = document.getElementById('Riyas');
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+                social.classList.add('popout')
+            } else {
+                navbar.classList.remove("sticky");
+                social.classList.remove('popout')
+            }
         }
-    };
-    xmlhttp.open("GET", "http://www.aei.co/slideImages.php", true);
-    xmlhttp.send();
 
-    window.onscroll = function() {myFunction()};
-
-    let navbar = document.getElementById("navbar");
-    let sticky = navbar.offsetTop;
-    let social = document.getElementById('social');
-    let Riyas = document.getElementById('Riyas');
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-            social.classList.add('popout')
-        } else {
-            navbar.classList.remove("sticky");
-            social.classList.remove('popout')
-        }
+        let sliderItemsArr = [], slides = sliderItems.length, i = 0;
+        //
     }
-
-    let sliderItemsArr = [], slides = sliderItems.length, i=0;
-    //
-
 
 </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
