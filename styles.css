@@ -32,17 +32,19 @@ nav {
     height: 120px;
 }
 
-.content {
-    transition: all .3s ease;
-}
-
-.sticky + .content {
-    padding-top: 170px;
-}
-
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+.page-content {
+    background-color: #fff;
+    padding-top: 50px;
+    transition: all .3s ease;
+}
+
+.sticky + .page-content .container {
+    padding-top: 170px;
 }
 
 .brand{
@@ -174,7 +176,6 @@ section {
     height: 100%;
 }
 .carousel-indicators {
-    position: absolute;
     bottom: 10vh;
 }
 
@@ -182,7 +183,6 @@ section {
     height: 70vh;
 }
 .carousel-caption {
-    border: 2px solid;
     display: block;
     padding: 100px 20px;
     width: 80%;
@@ -195,9 +195,18 @@ section {
 
 .carousel-caption h5 {
     position: absolute;
-    top: 20%;
-    font-size: 3em;
+    top: 0;
+    text-shadow: 1px 1px 1px #333, 2px 2px 0px #167695;
+    font: bold 6vh/1.5 Arial;
+    color: #eee;
 }
 .carousel-caption p {
-
+    text-shadow: 1px 1px 0px #fff, 2px 2px 3px #333;
+    color: #167695;
+    font: bold 3vh/1.5 Arial;
+}
+.carousel-caption a {
+    position: absolute;
+    
+    pointer-events: none;
 }
