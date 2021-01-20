@@ -90,7 +90,7 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/"id="home">Home</a></li>
                 <li><a href="/">About Us</a></li>
                 <li><a href="/">Contact</a></li>
                 <li><a href="/">Products</a></li>
@@ -120,6 +120,9 @@
         </section>
         <section id="aboutUs">
             <h2>ABOUT US</h2>
+        </section>
+        <section id="Products">
+            <h2>Products</h2>
         </section>
     </div>
 </div>
@@ -154,14 +157,19 @@
         xmlhttp.open("GET", "http://www.aeico.sa/slideImages.php", true);
         xmlhttp.send();
 
-        window.onscroll = function () {
-            myFunction()
-        };
-
         let navbar = document.getElementById("navbar");
         let sticky = navbar.offsetTop;
         let social = document.getElementById('social');
-        let Riyas = document.getElementById('Riyas');
+        let home = document.getElementById('home');
+        let aboutUs = document.getElementById('aboutUs')
+        window.onscroll = function () {
+            myFunction()
+            //console.log(window.scrollY)
+
+            home.innerHTML = window.pageYOffset - aboutUs.offsetTop
+
+
+        };
 
         function myFunction() {
             if (window.pageYOffset >= sticky) {
@@ -175,6 +183,8 @@
 
         let sliderItemsArr = [], slides = sliderItems.length, i = 0;
         //
+
+        document.addEventListener('scroll', console.log(window.pageYOffset))
     }
 
 </script>
