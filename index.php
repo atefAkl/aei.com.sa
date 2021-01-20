@@ -17,14 +17,6 @@
 <!--Start Header Section-->
 <div class="header">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
                 <img src="assets/bg/pipes.jpg" class="d-block w-100" alt="...">
@@ -41,38 +33,67 @@
                 <img src="assets/bg/pupms.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Pumps & Motors</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/bg/vaves.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Valves & Flow Control</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/bg/sensors.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Instruments & Sensors</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/bg/tandc.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Testing & Commissioning</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/bg/wandi.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Welding & Installation</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
                 </div>
             </div>
+
         </div>
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
         <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
