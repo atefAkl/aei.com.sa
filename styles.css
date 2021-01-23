@@ -8,7 +8,6 @@
     top: 0;
     z-index: -1;
     height: 70vh;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -32,17 +31,19 @@ nav {
     height: 120px;
 }
 
-.content {
-    transition: all .3s ease;
-}
-
-.sticky + .content {
-    padding-top: 170px;
-}
-
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+.page-content {
+    background-color: #fff;
+    padding-top: 50px;
+    transition: all .3s ease;
+}
+
+.sticky + .page-content .container {
+    padding-top: 170px;
 }
 
 .brand{
@@ -63,10 +64,10 @@ nav {
     transition: all 1s ease;
     margin: 10px auto;
 }
+
 .sticky #brandIcon img {
     width: 100px;
 }
-
 
 .brand h2 {
     position: absolute;
@@ -121,6 +122,7 @@ nav {
     flex: 7;
     transition: all .6s ease;
 }
+
 .sticky #menu {
 	margin-top: 20px;
 }
@@ -153,6 +155,7 @@ nav {
     background-color: #167695;
     transition: all .6s ease;
 }
+
 #menu ul li a:hover::after {
     width: calc(100% + 32px);
     margin-left: -16px;
@@ -169,35 +172,16 @@ section {
 
 /*Slider Style*/
 .carouselExampleDark {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    background-color: #333;
 }
+
 .carousel-indicators {
     position: absolute;
+    z-index: 10;
     bottom: 10vh;
 }
 
-.carousel-item img {
-    height: 70vh;
-}
-.carousel-caption {
-    border: 2px solid;
-    display: block;
-    padding: 100px 20px;
+.carousel-item {
+    position: absolute;
     width: 80%;
-    height: 80%;
-    margin: auto !important;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.carousel-caption h5 {
-    position: absolute;
-    top: 20%;
-    font-size: 3em;
-}
-.carousel-caption p {
-
 }

@@ -17,6 +17,75 @@
 <!--Start Header Section-->
 <div class="header">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="assets/bg/pipes.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pipes & Fittings</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="assets/bg/pupms.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pumps & Motors</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="assets/bg/vaves.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Valves & Flow Control</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="assets/bg/sensors.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Instruments & Sensors</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="assets/bg/tandc.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Testing & Commissioning</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/bg/wandi.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welding & Installation</h5>
+                    <p>
+                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
+                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
+                    </p>
+                    <a href="/pipes.php">See More ..</a>
+                </div>
+            </div>
+
+        </div>
         <ol class="carousel-indicators">
             <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
@@ -25,50 +94,6 @@
             <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
             <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/bg/header-bg.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pipes & Fittings</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/bg/header-bg-0.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pumps & Motors</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/bg/header-bg-1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Valves & Flow Control</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/bg/header-bg-2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Instruments & Sensors</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/bg/header-bg-3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Testing & Commissioning</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/bg/shal2.gif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Welding & Installation</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-        </div>
         <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -90,7 +115,7 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a href="/"id="home">Home</a></li>
+                <li><a href="/" id="home">Home</a></li>
                 <li><a href="/">About Us</a></li>
                 <li><a href="/">Contact</a></li>
                 <li><a href="/">Products</a></li>
@@ -104,7 +129,7 @@
 <!--Navigation Section-->
 
 <!--Start Content Section-->
-<div class="content">
+<div class="page-content">
     <div id="social" class="social">
         <i class="fa fa-facebook fa-2x"></i>
         <i class="fa fa-twitter fa-2x"></i>
@@ -131,7 +156,7 @@
 <script type="text/javascript">
     window.onload = function ()
     {
-        var sliderItems = [];
+/*        var sliderItems = [];
         var imageSection = document.getElementById('imageSection');
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function () {
@@ -156,6 +181,13 @@
         };
         xmlhttp.open("GET", "http://www.aeico.sa/slideImages.php", true);
         xmlhttp.send();
+<<<<<<< HEAD
+=======
+*/
+        window.onscroll = function () {
+            myFunction()
+        };
+>>>>>>> 153097a443646169cac0c4cd87835525d1f06871
 
         let navbar = document.getElementById("navbar");
         let sticky = navbar.offsetTop;
@@ -181,14 +213,11 @@
             }
         }
 
-        let sliderItemsArr = [], slides = sliderItems.length, i = 0;
-        //
-
         document.addEventListener('scroll', console.log(window.pageYOffset))
     }
 
 </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
