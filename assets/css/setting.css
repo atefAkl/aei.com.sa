@@ -29,9 +29,14 @@ ul {
     margin: 0;
 }
 
-/*#contents ul li {*/
-/*    overflow: hidden;*/
-/*}*/
+#contents ul li {
+    display: none;
+    overflow: hidden;
+}
+#contents ul li:first-of-type {
+    display: block;
+
+}
 
 #contents ul li h1 {
     padding: 8px 30px;

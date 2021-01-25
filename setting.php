@@ -34,36 +34,105 @@ if (isset($_POST['save'])) {
     <div id="contents">
         <ul>
             <li id="si0Contents">
-                <h1>Home Page Settings</h1>
-                <form method="post" enctype="multipart/form-data">
-                    <div class="formSection">
-                        <h2>Add New Slide</h2>
-                        <div>
-                            <label for="image">Select Slide Image</label>
-                            <input type="file" name="image" id="image">
-                        </div>
-                        <div>
-                            <label for="title">Slide Title</label>
-                            <input type="text" name="title" id="title">
-                        </div>
-                        <div>
-                            <label for="text">Slide Text</label>
-                            <input type="text" name="text" id="text">
-                        </div>
-                        <div>
-                            <label for="link">Slide Link</label>
-                            <input type="text" name="link" id="link">
-                        </div>
-                        <div>
-                            <input type="submit" value="Save" name="save">
+                <h2 class="text-center">Home Page Settings</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Slider Options
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <form method="post" enctype="multipart/form-data">
+                                    <div class="formSection">
+                                        <h4>Indicators</h4>
+                                        <div>
+                                            <label for="it">Use Indicators</label>
+                                            <input type="checkbox" name="indicator" id="it" value="true">
+                                        </div>
+                                    </div>
+                                    <div class="formSection">
+                                        <h4>Bullets</h4>
+                                        <div>
+                                            <label for="blts" class="fluid">Use Bullets</label>
+                                            <input type="checkbox" name="bullets" id="blts" value="true">
+                                        </div>
+                                        <h4>Bullets Shape</h4>
+                                        <div>
+                                            <label for="square">Square Shape</label>
+                                            <input type="radio" name="indicator" id="square" value="true">
+                                            <label for="radial">Radial Shape+</label>
+                                            <input type="radio" name="indicator" id="radial" value="true">
+                                        </div>
+                                        <h4>Bullets Fill</h4>
+                                        <div>
+                                            <i class="fa fa-angle-left"></i>
+                                            <label for="color">Color</label>
+                                            <input type="radio" name="indicator" id="color" value="true">
+                                            <label for="thumb">Thumbnail</label>
+                                            <input type="radio" name="fill" id="thumb" value="true">
+                                        </div>
+                                    </div>
+                                    <div class="formSection">
+                                        <h4>Slides</h4>
+                                        <div>
+                                            <label for="image">Select Slide Image</label>
+                                            <input type="file" name="image" id="image">
+                                        </div>
+                                        <div>
+                                            <label for="title">Slide Title</label>
+                                            <input type="text" name="title" id="title">
+                                        </div>
+                                        <div>
+                                            <label for="text">Slide Text</label>
+                                            <input type="text" name="text" id="text">
+                                        </div>
+                                        <div>
+                                            <label for="link">Slide Link</label>
+                                            <input type="text" name="link" id="link">
+                                        </div>
+                                        <div>
+                                            <input type="submit" value="Save" name="save">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </form>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
             </li>
             <li id="si1Contents">
                 <form method="post" enctype="multipart/form-data">
                     <div class="formSection">
                         <h2>Setting Item 1 Contents</h2>
+
                         <div>
                             <label for="image">Select Slide Image</label>
                             <input type="file" name="image" id="image">
@@ -231,11 +300,9 @@ if (isset($_POST['save'])) {
 
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script type="text/javascript">
-    $('#contents >ul > li').css({
-        display: 'none',
-        overflow: 'hidden'
-    });
     $('li#si0Contents').slideDown();
     let settingItems = ["si0", "si1", "si2", "si3", "si4", "si5", "si6"];
     let settingContents = document.querySelectorAll("#contents li");

@@ -16,92 +16,71 @@
 
 <!--Start Header Section-->
 <div class="header">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <img src="assets/bg/pipes.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pipes & Fittings</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/bg/pupms.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pumps & Motors</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/bg/vaves.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Valves & Flow Control</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/bg/sensors.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Instruments & Sensors</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/bg/tandc.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Testing & Commissioning</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/bg/wandi.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Welding & Installation</h5>
-                    <p>
-                        Carbon steel pipes for ordinary piping are used widely, including in piping for steam, water, oil, gas, air and more.
-                        We also have our own seamless steel pipe processing machine to process any size as clients requirements.
-                    </p>
-                    <a href="/pipes.php">See More ..</a>
-                </div>
-            </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="title">Operating & Maintenance</div>
+            <img src="img1.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum dolorem ea est exercitationem explicabo in laboriosam officiis veritatis, voluptates!</div>
         </div>
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-        </ol>
-        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
+
+        <div class="mySlides fade">
+            <div class="title">Pipes & Fittings</div>
+            <img src="img2.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque fugiat hic impedit, molestias pariatur recusandae veritatis. Nesciunt omnis optio, placeat quae tempore veniam.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="title">Pumps & Motors</div>
+            <img src="img3.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto assumenda at consectetur dolores error eum illum ipsum laudantium libero minus nam obcaecati perspiciatis quia rem ut vitae, voluptas?</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="title">Instruments & Sensors</div>
+            <img src="img4.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur cum cumque, distinctio explicabo hic labore quo quod quos repellat sequi ut vel veniam, vitae!</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="title">Testing & Commissioning</div>
+            <img src="img5.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda deleniti excepturi exercitationem explicabo inventore iure natus odio pariatur porro recusandae repellendus rerum sint, tenetur?</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="title">Valves & Flow Control</div>
+            <img src="img6.jpg" style="width:100%; height: 100%">
+            <div class="caption">lorem18</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="title">3 / 3</div>
+            <img src="img7.jpg" style="width:100%; height: 100%">
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores aspernatur blanditiis deleniti ducimus explicabo illum, libero mollitia nam pariatur quia quod ratione reprehenderit sint temporibus tenetur!</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div class="dots" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
     </div>
 </div>
 <!--End Header Section-->
@@ -153,41 +132,44 @@
 </div>
 <!--End Content Section-->
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 <script type="text/javascript">
     window.onload = function ()
     {
-/*        var sliderItems = [];
-        var imageSection = document.getElementById('imageSection');
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                sliderItems = Object.values(JSON.parse(this.responseText));
-                let sliderImgs = document.querySelectorAll('.aqlSliderImage .img'), i = 0;
-                for (; i < sliderImgs.length; i++) {
-                    sliderImgs[i].style.background = 'url("' + sliderItems[0] + '")'
-                    sliderImgs[i].classList.add("loaded");
+        /*        var sliderItems = [];
+                var imageSection = document.getElementById('imageSection');
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        sliderItems = Object.values(JSON.parse(this.responseText));
+                        let sliderImgs = document.querySelectorAll('.aqlSliderImage .img'), i = 0;
+                        for (; i < sliderImgs.length; i++) {
+                            sliderImgs[i].style.background = 'url("' + sliderItems[0] + '")'
+                            sliderImgs[i].classList.add("loaded");
 
-                }
-                //imageSection.style.animation = 'zoomIn 3s linear'
-                //imageSection.innerText = sliderItems;
-                setInterval(function () {
+                        }
+                        //imageSection.style.animation = 'zoomIn 3s linear'
+                        //imageSection.innerText = sliderItems;
+                        setInterval(function () {
 
-                    //imageSection.setAttribute('src', sliderItems[0])
-                    //imageSection.style.animation = 'zoomIn 3s linear'
-                    sliderItems.push(sliderItems.shift());
-                }, 10000)
+                            //imageSection.setAttribute('src', sliderItems[0])
+                            //imageSection.style.animation = 'zoomIn 3s linear'
+                            sliderItems.push(sliderItems.shift());
+                        }, 10000)
 
-            }
-        };
-        xmlhttp.open("GET", "http://www.aeico.sa/slideImages.php", true);
-        xmlhttp.send();
-<<<<<<< HEAD
-=======
-*/
+                    }
+                };
+                xmlhttp.open("GET", "http://www.aeico.sa/slideImages.php", true);
+                xmlhttp.send();
+        <<<<<<< HEAD
+        =======
+        */
         window.onscroll = function () {
             myFunction()
         };
->>>>>>> 153097a443646169cac0c4cd87835525d1f06871
 
         let navbar = document.getElementById("navbar");
         let sticky = navbar.offsetTop;
@@ -216,9 +198,21 @@
         document.addEventListener('scroll', console.log(window.pageYOffset))
     }
 
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>
