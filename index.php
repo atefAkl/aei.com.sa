@@ -21,47 +21,47 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <div class="title">Operating & Maintenance</div>
+            <div class="title">Operating &amp;Maintenance</div>
             <img src="assets/bg/img1.jpg" style="width:100%; height: 100%" alt="Operating & Maintenance">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum dolorem ea est exercitationem explicabo in laboriosam officiis veritatis, voluptates!</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="title">Pipes & Fittings</div>
+            <div class="title">Pipes &amp;Fittings</div>
             <img src="assets/bg/img2.jpg" style="width:100%; height: 100%" alt="Pipes & Fittings">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque fugiat hic impedit, molestias pariatur recusandae veritatis. Nesciunt omnis optio, placeat quae tempore veniam.</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="title">Pumps & Motors</div>
+            <div class="title">Pumps &amp;Motors</div>
             <img src="assets/bg/img3.jpg" style="width:100%; height: 100%" alt="Pumps & Motors">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto assumenda at consectetur dolores error eum illum ipsum laudantium libero minus nam obcaecati perspiciatis quia rem ut vitae, voluptas?</div>
         </div>
 
 
         <div class="mySlides fade">
-            <div class="title">Instruments & Sensors</div>
+            <div class="title">Instruments &amp;Sensors</div>
             <img src="assets/bg/img4.jpg" style="width:100%; height: 100%" alt="Instruments & Sensors">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur cum cumque, distinctio explicabo hic labore quo quod quos repellat sequi ut vel veniam, vitae!</div>
         </div>
 
 
         <div class="mySlides fade">
-            <div class="title">Testing & Commissioning</div>
+            <div class="title">Testing &amp;Commissioning</div>
             <img src="assets/bg/img5.jpg" style="width:100%; height: 100%" alt="Testing & Commissioning">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda deleniti excepturi exercitationem explicabo inventore iure natus odio pariatur porro recusandae repellendus rerum sint, tenetur?</div>
         </div>
 
 
         <div class="mySlides fade">
-            <div class="title">Valves & Flow Control</div>
+            <div class="title">Valves &amp;Flow Control</div>
             <img src="assets/bg/img6.jpg" style="width:100%; height: 100%" alt="Valves & Flow Control">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dignissimos iusto laborum magnam molestias placeat quasi sunt!</div>
         </div>
 
 
         <div class="mySlides fade">
-            <div class="title">Fabrication & Installation</div>
+            <div class="title">Fabrication &amp;Installation</div>
             <img src="assets/bg/img7.jpg" style="width:100%; height: 100%" alt="Fabrication & Installation">
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores aspernatur blanditiis deleniti ducimus explicabo illum, libero mollitia nam pariatur quia quod ratione reprehenderit sint temporibus tenetur!</div>
         </div>
@@ -100,7 +100,7 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a href="#aboutUs" id="aboutUs">About Us</a></li>
+                <li><a href="#aboutUs" id="about">About Us</a></li>
                 <li><a href="contents/products.php" id="products">Products</a></li>
                 <li><a href="contents/projects.php" id="projects">Projects</a></li>
                 <li><a href="contents/services.php" id="services">Services</a></li>
@@ -136,7 +136,7 @@
                 <div class="galleryContainer">
                     <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Pipes & Fittings</div>
+                            <div class="gItemTitle textLg">Pipes &amp;Fittings</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
@@ -146,22 +146,14 @@
                     </div>
                     <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Pumps & Motors</div>
+                            <div class="gItemTitle textLg">Pumps &amp;Motors</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
                     </div>
                     <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Instruments & Sensors</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
-                            <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
-                        </div>
-
-                    </div>
-                    <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
-                        <div class="desc">
-                            <div class="gItemTitle textLg">valves & Flow Control</div>
+                            <div class="gItemTitle textLg">Instruments &amp;Sensors</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
@@ -169,7 +161,7 @@
                     </div>
                     <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Testing & Commissioning</div>
+                            <div class="gItemTitle textLg">valves &amp;Flow Control</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
@@ -177,7 +169,15 @@
                     </div>
                     <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Welding & Fabrication</div>
+                            <div class="gItemTitle textLg">Testing &amp;Commissioning</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
+                            <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
+                        </div>
+
+                    </div>
+                    <div class="gItem" style="background-image: url('assets/bg/galleryItemNo-1.jpg');">
+                        <div class="desc">
+                            <div class="gItemTitle textLg">Welding &amp; Fabrication</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="gItem">
                         <div class="desc">
-                            <div class="gItemTitle textLg">Operating & Maintenance</div>
+                            <div class="gItemTitle textLg">Operating &amp; Maintenance</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto cumque dolor error esse quaerat qui repellat suscipit tempore, voluptatibus! Ducimus, saepe!</p>
                             <button><a href="/contents/products.php?s=pipes">See More . . </a></button>
                         </div>
@@ -201,12 +201,135 @@
             </div>
 
         </section>
-        <section id="aboutUs">
-            <h2 class="textShiny fa-file-text-center textXL">ABOUT US</h2>
-            <p></p>
+        <section id="intro">
+            <h2 class="textShiny text-center textXL">Introduction</h2>
+            <p class="textN">
+                <b>AEICO-KSA</b> with its branches are the manufacturers / distributors for tools &amp;
+                equipment for water processing &amp; treatment, various water treatment plants
+                construction, manufacture and supply of carbon-steel and stainless-steel pipes
+                &amp; fittings, assembling and performance for testing all kinds of pumps, all kind of
+                valves, all low &amp; medium voltage panels and automation systems.
+                <br>
+                We create installations, consistent with the investment, operating and
+                maintenance costs, and implemented in accordance with your needs. Our
+                extensive experience and proven quality equipment guarantee high reliability.
+                <br>
+                We take responsibility for monitoring the impacts of plant operation and
+                maintenance, leaving the client free to focus on their core business activity.
+                Based on our expertise, we optimize existing installations and make processes
+                more efficient. It is a force that makes us particularly desirable partner in the
+                treatment of water.
+                <br>
+                Oriented towards the customer, flexible and able to quickly respond to the
+                demands of our customers, we carry out work in projects with short delivery time
+                and at the most competitive prices. By identifying the weakness of tomorrow
+                today, we became a link between the traditional experience and high-tech
+                future. Our intention is to offer our facilities implement the latest technology of
+                processing water for industry and households, increasing the quality and
+                competitiveness of our customers, while reducing the cost of water production.
+                <br>
+                We are at your disposal for all inquiries, offers, advice and consultation.
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sincerely,
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>AEICO-KSA</b>
+            </p>
         </section>
-        <section id="Products">
-            <h2 class="textShiny fa-file-text-center textXL">Products</h2>
+        <section id="aboutUs">
+            <h2 class="textShiny text-center textXL">About Us</h2>
+            <p class="textN">
+            	<b>AEICO-KSA</b> was founded more of 38 years in <b>K.S.A</b>, with a very clear and consistent aim of "purification and treatment of water."
+            </p>
+            <p class="textN">
+            	From its founding until today AEICO-KSA is the largest and most comprehensive company with its large customer list in K.S.A, surpasses all other competitors. With the establishment of its branches in major regions of K.S.A closer to its knowledge, quality and experience to all customers and clients to quickly and efficiently solve water problems.
+            </p>
+            <p class="textN">
+				AEICO-KSA has a wide range of different products in order to meet the various needs of our clients.
+            </p>
+            <p class="textN">
+				We planning, design, manufacture, install and serve the systems for water treatment with the latest technologies for various industries, microelectronics, power, water and water treatment plants... .
+            </p>
+            <p class="textN">
+				The expert team of engineers in design work closely with our production departments: 
+            </p>
+            <ul class="homeUl">
+				<li>PD - Production Departments. </li>
+				<li>SCD  - Servicing &amp; Control Department. </li>
+				<li>ED Engineering Department </li>
+				<li>SMD  - Sales &amp; Marketing Department </li>
+				<li>WFT  - Welding &amp; Fabrication Team</li>
+				<li>WHD  - Water Hammer Department </li>
+				<li>TCD  - Testing &amp; Commissioning Department</li>
+            </ul>
+            
+            <p class="textN">
+				Although AEICO-KSA works in projects throughout various zones in K.S.A and Middle East, they are able to take in cases of ambiguity in design professionally and quickly they can consult with our fellow engineers from abroad.
+            </p>
+            <p class="textN">
+				AEICO-KSA Sales and Marketing announcing for our products in the most efficient ways. 
+            </p>
+            <p class="textN">
+				Our staff is water great care of our customers and they regularly visit to get the most accurate and highest quality information to our installed and installed devices, and to promptly advise and assist it in resolving any complications.
+            </p>
+            <p class="textN">
+				Our objectives according to business vision,
+            </p>
+            <h2 class="text-center" style="color: #444; text-shadow: 1px 1px 0px #000">WE NOT ONLY LOOKING FOR CLINENT SATISFACTION, <br>BUT WE AIM TO ACHIEVE THE CLIENT HAPPINESS</h2>
+            
+        </section>
+    	<section id="we">
+            <h2 class="textShiny text-center textXL">Who Are We</h2>
+            <div class="textN">
+            	<h3>Mission</h3>
+				AEICO-KSA commits to a sustainable environment through providing effective
+water management solutions and treatment systems, environmentally friendly
+technologies and alternative energy solutions to reconcile the ever-growing
+demand for water and its dwindling natural resources. &nbsp;&nbsp;&nbsp;<a href="contents/profile.php">See More ...</a>
+            </div>
+            <div class="textN">
+            	<h3>Vision</h3>
+            	AEICO-KSA strives to become the National provider of choice for sustainable,
+intelligent water and energy management solutions and systems. The group
+pledges to lead by example and to influence others to do likewise. &nbsp;&nbsp;&nbsp;<a href="contents/profile.php">See More ...</a>
+            </div>
+            <div class="textN">
+            	<h3>Objectives</h3>
+				<b>Customer Focus  </b>
+Every employee is customer satisfaction driven. We commit to provide our
+clients with value-added products and services and to achieve high returns on
+investments for our shareholders; we further strive to exceed their expectations
+and keep them continuously informed through personable, honest and open
+communications.&nbsp;&nbsp;&nbsp;<a href="contents/profile.php">See More ...</a>
+
+            </div>
+         </section>
+        <section id="contactUs">
+        	<h2 class="textShiny text-center textXL">Contact Us</h2>
+        	<div class="row">
+        		<div class="col col-7">
+        			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1789.6087889099163!2d44.033117!3d26.222119!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69ce46490cbad56d!2sGamas%20Factory%20Co.%20advanced%20electromechanical%20industries!5e0!3m2!1sen!2sus!4v1611635859519!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        		</div>
+        	</div>
+        	<form action="contents/contact.php">
+        		<div class="formRow">
+        			<input type="text" name="name" placeholder="Your Name">
+				</div>
+        		<div class="formRow">
+        			<input type="text" name="email" placeholder="Your Email">
+				</div>
+        		<div class="formRow">
+        			<input type="text" name="subject" placeholder="Type the subject">
+				</div>
+        		<div class="formRow">
+					<textarea type="text" name="name" placeholder="Type Your Message Here">
+						Type Your Message
+					</textarea>
+        		</div>
+        		<div class="formRow">
+        			<input type="submit" name="send" value="Send">
+        		</div>
+        	</form>
         </section>
     </div>
 </div>
